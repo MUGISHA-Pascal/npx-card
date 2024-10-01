@@ -1,17 +1,20 @@
 {
   "name": "npm-business-card",
   "version": "1.0.0",
-  "description": "",
+  "description": "My personal npm budiness card",
   "type": "module",
   "main": "index.js",
+  "bin": {
+    "my-card": "./dist/card.js"
+  },
   "scripts": {
     "build": "tsc -w",
     "dev": "nodemon ./dist/card.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "MUGISHA Pascal",
+  "license": "MIT",
   "dependencies": {
     "@types/boxen": "^3.0.1",
     "@types/chalk": "^2.2.0",
