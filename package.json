@@ -1,18 +1,23 @@
 {
   "name": "mugishapascal",
-  "version": "1.0.2",
+  "version": "2.0.6",
   "description": "My personal npm business card",
   "type": "module",
-  "main": "index.js",
+  "main": "dist/card.js",
   "bin": {
-    "my-card": "./dist/card.js"
+    "mugishapascal": "./dist/card.js"
   },
   "scripts": {
     "build": "tsc",
-    "start": "node ./dist/card.js",
+    "start": "node dist/card.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "business card",
+    "mugisha",
+    "npm",
+    "npx"
+  ],
   "author": "MUGISHA Pascal",
   "license": "MIT",
   "dependencies": {
