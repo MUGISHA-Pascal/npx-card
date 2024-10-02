@@ -5,8 +5,8 @@ const number = chalk.bold.blue("+250786493844");
 const github = chalk.bold.yellow("https://github.com/MUGISHA-Pascal");
 const linkedin = chalk.bold.yellow("www.linkedin.com/in/mugisha-pascal");
 const role = chalk.bold.yellow("Software engineer");
-const output = `  
-            MUGISHA Pascal
+const name = chalk.bold("MUGISHA Pascal");
+const output = `               ${name}
 ${chalk.bold.green("role")}         : ${role} 
 ${chalk.bold.green("phone number")} : ${number} 
 ${chalk.bold.green("email")}        : ${email} 
