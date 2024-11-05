@@ -6,7 +6,9 @@ import boxen from "boxen";
 const email = chalk.bold.blue("mugishapascal@gmail.com");
 const number = chalk.bold.blue("+250786493844");
 const github = chalk.bold.yellow("https://github.com/MUGISHA-Pascal");
-const linkedin = chalk.bold.yellow("www.linkedin.com/in/mugisha-pascal");
+const linkedin = chalk.bold.yellow(
+  "https://www.linkedin.com/in/mugisha-pascal"
+);
 const role = chalk.bold.yellow("Software engineer");
 const name = chalk.bold("MUGISHA Pascal");
 
